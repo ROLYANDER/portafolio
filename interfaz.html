@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="estiloEncrip.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="java.js"> </script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo">
+                <h1> <img src="ima/Logo.jpg" ></h1> 
+            </div>
+        </header>
+
+        <main>
+            <div class="cuadroTexto">
+                <input type="text" id="entradaTexto" class="input-padron" required
+                placeholder="Ingrese el texto aquí">
+
+            </form>
+            </div>
+
+            <div class="cuadroDerecho">
+                <img id="muneco" src="ima/Muneco.jpg">
+                
+                <h2 id="alerta">Ningún mensaje fue
+                 encontrado </h2>
+
+                 <textarea name="" id="areaTexto" cols="80" rows="8">Ingresa el texto que desees encriptar o desencriptar</textarea>
+
+                <button type="button" id="copiar" onclick="copiar()"> COPIAR </button>
+
+            </div> 
+            <div class="botones">
+                <p class="recomendacion"><img class="vector" src="ima/Vector.png"> Solo letras minúsculas y sin acentos</p>
+                <button type="button" id="boton-encriptar" onclick="encriptar()">ENCRIPTAR</button>
+                <button type="button" id="boton-desencriptar" onclick="desencriptar()">DESENCRIPTAR</button>
+            <div>
+                
+            </div>
+  
+  
+        </main>
+
+    </body>
+
+</html>
